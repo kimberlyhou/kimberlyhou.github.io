@@ -1,0 +1,13 @@
+# Site settings
+title: Kimberly Hou
+email: kimberly.hou@columbia.edu
+description: > # this means to ignore newlines until "baseurl:"
+  Personal website designed and coded by Kimberly Hou
+baseurl: "/" # the subpath of your site, e.g. /blog/
+url: "http://kimberlyhou.github.io" # the base hostname & protocol for your site
+twitter_username: kimberlyjhou
+github_username:  kimberlyhou
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
