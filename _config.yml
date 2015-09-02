@@ -1,7 +1,7 @@
 # Site settings
 title: Kimberly Hou
 description: > # this means to ignore newlines until "baseurl:"
-  Personal website designed and coded by Kimberly Hou
+  Student at Columbia University and Juilliard. Enthusiast of things tech and entrepreneurial. Website designed and coded by Kimberly Hou.
 baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "http://kimberlyhou.github.io" # the base hostname & protocol for your site
 

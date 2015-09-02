@@ -28,8 +28,7 @@ title: Kimberly Hou
 
 .introduction {
   padding: 1.5vw;
-  height: 230px;
-  
+  max-height: 200px;
 }
 
 .introduction p {
@@ -41,15 +40,10 @@ title: Kimberly Hou
 .cherries {
   display: inline-block;
   position: relative;
-  /* padding-top: 4vh;
-  padding-left: 70vw;
-  padding-left: 950px;
-  padding-top: 30px;*/
-  top: -210px;
+  top: -200px;
   padding: 1.5vw;
   margin-left: 70%;
   width: 75%;
-
 }
 
 .btn {
@@ -57,6 +51,44 @@ title: Kimberly Hou
   font-family: 'Droid Sans', sans-serif;
   font-size: 1.2vw;
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+  img {
+    padding-top: 5vh;
+    max-width: 30vw;
+  } 
+
+  .welcome p {
+    font-size: 4vw;
+    margin-left: 12vw;
+  }
+
+  .introduction p {
+  margin-left: 12vw;
+  margin-right: 30vw;
+  font-size: 3vw;
+  line-height: 150%;
+  }
+
+  .btn {
+    font-size: 3vw;
+  }
+
+  .mdl-mini-footer__right-section {
+    padding-top: 60px;
+  }
+
+  .mdl-mini-footer {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+
+  #yt {
+    margin-top: 3px;
+  }
+
+  }
 
 </style>
 
@@ -66,13 +98,12 @@ title: Kimberly Hou
 </div>
 
 <div class="welcome">
-  <p>Hey there! Welcome to my personal website.</p>
+  <p>Hey there! Welcome to my website.</p>
 </div>
-
 
 <div class="introduction">
   <br>
-  <p> I'm Kimberly Hou, a pianist in the Columbia University / Juilliard Exchange studying Neuroscience and Behavior. Through various internships since freshman year, I've also developed a fascination with technology and entrepreneurship. Always psyched to keep learning, and I anticipate this site will grow as I grow. Thanks for stopping by!</p>
+  <p> I’m Kimberly Hou, a student at Columbia University with a deep interest in technology and entrepreneurship. I'm also a pianist in the Columbia-Juilliard Exchange majoring in Neuroscience and Behavior. Always psyched to keep learning, and I anticipate this site will grow as I grow. Thanks for stopping by!</p>
     
   <a href="/activities"><button class="btn mdl-button mdl-js-button mdl-button--primary">
   Interests >>

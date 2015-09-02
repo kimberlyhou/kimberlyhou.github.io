@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
 
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <!-- <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}"> -->
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
 
@@ -81,6 +81,24 @@
     font-size: 1.2vw;
   }
 
+  .mdl-mini-footer__right-section {
+      padding-top: 5px;
+    }
+
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .mdl-mini-footer__right-section {
+      padding-top: 30px;
+    }
+
+    .mdl-mini-footer__link-list {
+      padding-top: 10px;
+    }
+
+    .mdl-navigation__link {
+    font-size: 14px;
+  }
+  }
+
   </style>
 
   <body>
@@ -123,7 +141,7 @@
         <ul class="mdl-mini-footer__link-list">
           <li><a target="_blank" href="https://www.linkedin.com/in/kimberlyhou">
           <img src="http://i60.tinypic.com/eq4f7l.png" style="width:22px;"/></a></li>
-          <li><a target="_blank" href="https://www.youtube.com/user/KimberlyJHou"><img src="http://i59.tinypic.com/yjitt.png" style="width:22px;"/></a></li>
+          <li><a target="_blank" href="https://www.youtube.com/user/KimberlyJHou"><img id="yt" src="http://i59.tinypic.com/yjitt.png" style="width:22px;"/></a></li>
           <li><a target="_blank" href="https://github.com/kimberlyhou"><img src="http://www.getmdl.io/assets/github_white_24.svg"/></a></li>
           <li><a target="_blank" href="https://twitter.com/KimberlyJHou"><img src="https://www.gstatic.com/images/icons/material/system/2x/post_twitter_white_24dp.png" style="width: 25px; height: 25px;"/></a></li>
           </ul>
