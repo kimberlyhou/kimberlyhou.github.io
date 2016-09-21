@@ -51,8 +51,7 @@
   padding-left: 15vw;
   display: block;
   width: 100%;
-  height: 20vh;
-  /* background-color: #282a2c; */
+  height: 15vh;
   background-color: #424242;
   }
 
@@ -89,26 +88,32 @@
   }
 
   .mdl-navigation__link {
-    font-size: 1.2vw;
+    font-size: 18px;
   }
 
   .mdl-mini-footer__right-section {
       padding-top: 5px;
     }
 
-  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    .mdl-mini-footer__right-section {
-      padding-top: 30px;
-    }
+    .layout-transparent {
+    background: url('assets/JapaneseMaple.png') center / cover;
+  }
 
-    .mdl-mini-footer__link-list {
-      padding-top: 10px;
-    }
+  .mdl-layout__drawer-button {
+    color: white !important;
+  }
+
+
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    
 
     .mdl-navigation__link {
     font-size: 14px;
   }
-  }
+}
+  
+ 
+
 
   </style>
 
@@ -116,8 +121,8 @@
 
     <!-- {% include header.html %} -->
 
-    <div class="mdl-layout mdl-js-layout mdl-layout--overlay-drawer-button">
-  <header class="mdl-layout__header mdl-layout__header--scroll">
+    <div class="mdl-layout mdl-js-layout mdl-layout--overlay-drawer-button layout-transparent">
+  <header class="mdl-layout__header mdl-layout__header--transparent">
     <div class="mdl-layout__header-row">
       <!-- Title -->
       <a class="link" href="http://kimberlyhou.com"><span class="mdl-layout-title">Kimberly Hou</span></a>
@@ -126,7 +131,7 @@
       <!-- Navigation -->
       <nav class="mdl-navigation">
         <!-- <a class="mdl-navigation__link" href="">About</a> -->
-        <a class="mdl-navigation__link" href="/activities">Activities</a>
+        <a class="mdl-navigation__link" href="/projects">Projects</a>
         <a class="mdl-navigation__link" href="/piano">Piano</a>
         
       </nav>
@@ -136,7 +141,7 @@
     <span class="mdl-layout-title"><a class="menu-link" href="http://kimberlyhou.com">Kimberly Hou</a></span>
     <nav class="mdl-navigation">
       <!-- <a class="mdl-navigation__link" href="">About</a> -->
-      <a class="mdl-navigation__link" href="/activities">Activities</a>
+      <a class="mdl-navigation__link" href="/projects">Projects</a>
       <a class="mdl-navigation__link" href="/piano">Piano</a>
       
     </nav>
@@ -145,30 +150,32 @@
     <div class="page-content">
       <div class="wrapper">
         {{ content }}
+      
+
+    
+
+      </div>
+    </div>
+
+  </main>
 
       <footer class="mdl-mini-footer">
         <div class="mdl-mini-footer__left-section">
-        <div class="mdl-logo"></div>
-        <ul class="mdl-mini-footer__link-list">
-          <li><a target="_blank" href="https://www.linkedin.com/in/kimberlyhou">
-          <img src="http://i60.tinypic.com/eq4f7l.png" style="width:22px;"/></a></li>
-          <li><a target="_blank" href="https://www.youtube.com/user/KimberlyJHou"><img id="yt" src="http://i59.tinypic.com/yjitt.png" style="width:22px;"/></a></li>
-          <li><a target="_blank" href="https://github.com/kimberlyhou"><img src="http://www.getmdl.io/assets/github_white_24.svg"/></a></li>
-          <li><a target="_blank" href="https://twitter.com/KimberlyJHou"><img src="https://www.gstatic.com/images/icons/material/system/2x/post_twitter_white_24dp.png" style="width: 25px; height: 25px;"/></a></li>
-          </ul>
-        
+          
+          <ul class="mdl-mini-footer__link-list">
+            <li><a target="_blank" href="https://www.linkedin.com/in/kimberlyhou">
+            <img src="http://i60.tinypic.com/eq4f7l.png" style="width:22px;"/></a></li>
+            <li><a target="_blank" href="https://www.youtube.com/user/KimberlyJHou"><img id="yt" src="http://i59.tinypic.com/yjitt.png" style="width:22px;"/></a></li>
+            <li><a target="_blank" href="https://github.com/kimberlyhou"><img src="http://www.getmdl.io/assets/github_white_24.svg"/></a></li>
+            <li><a target="_blank" href="https://twitter.com/KimberlyJHou"><img src="https://www.gstatic.com/images/icons/material/system/2x/post_twitter_white_24dp.png" style="width: 25px; height: 25px;"/></a></li>
+            </ul>
+          
         </div>
         <div class="mdl-mini-footer__right-section">
         Made by Kimberly Hou  
         </div>
+        
       </footer>
-      
-
-    </div>
-
-      </div>
-    </div>
-  </main>
 </div>
 
 
