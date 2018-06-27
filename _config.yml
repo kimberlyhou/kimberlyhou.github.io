@@ -1,11 +1,12 @@
 # Site settings
 title: Kimberly Hou
 description: > # this means to ignore newlines until "baseurl:"
-  Student at Columbia University and Juilliard. Enthusiast of things tech and entrepreneurial. Website designed and coded by Kimberly Hou.
+  I play piano and love music. 
 baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "http://kimberlyhou.github.io" # the base hostname & protocol for your site
 
 
 # Build settings
+exclude: ['node_modules']
 markdown: kramdown
-highlighter: rouge
+highlighter: pygments
