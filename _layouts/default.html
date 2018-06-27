@@ -43,8 +43,6 @@
   </script>
   </head>
 
-  <!-- {% include head.html %} -->
-
   <style>
 
   .footer {
@@ -112,14 +110,9 @@
   }
 }
   
- 
-
-
   </style>
 
   <body>
-
-    <!-- {% include header.html %} -->
 
     <div class="mdl-layout mdl-js-layout mdl-layout--overlay-drawer-button layout-transparent">
   <header class="mdl-layout__header mdl-layout__header--transparent">
@@ -130,30 +123,15 @@
       <div class="mdl-layout-spacer"></div>
       <!-- Navigation -->
       <nav class="mdl-navigation">
-        <!-- <a class="mdl-navigation__link" href="">About</a> -->
-        <a class="mdl-navigation__link" href="/projects">Projects</a>
-        <a class="mdl-navigation__link" href="/music">Music</a>
-        
+        <a class="mdl-navigation__link" href="/music">Music</a> 
       </nav>
     </div>
   </header>
-  <div class="mdl-layout__drawer">
-    <span class="mdl-layout-title"><a class="menu-link" href="http://kimberlyhou.com">Kimberly Hou</a></span>
-    <nav class="mdl-navigation">
-      <!-- <a class="mdl-navigation__link" href="">About</a> -->
-      <a class="mdl-navigation__link" href="/projects">Projects</a>
-      <a class="mdl-navigation__link" href="/music">Music</a>
-      
-    </nav>
-  </div>
+
   <main class="mdl-layout__content">
     <div class="page-content">
       <div class="wrapper">
         {{ content }}
-      
-
-    
-
       </div>
     </div>
 
@@ -177,9 +155,6 @@
         
       </footer>
 </div>
-
-
-    <!-- {% include footer.html %} -->
 
   </body>
 
