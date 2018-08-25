@@ -8,10 +8,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-  <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.2/material.indigo-deep_purple.min.css" /> 
-  <script src="https://storage.googleapis.com/code.getmdl.io/1.0.2/material.min.js"></script>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
 
@@ -20,17 +20,6 @@
 
   <link rel="shortcut icon" type="image/png" href="assets/favicon.png">
   <link rel="shortcut icon" type="image/png" href="../assets/favicon.png">
-
-
-
-  <script>
-  function onHover(cherries) {
-    cherries.setAttribute("src", "assets/cherries-hover.png");
-  }
-  function unHover(cherries) {
-    cherries.setAttribute("src","assets/cherries-default.png");
-  }
-  </script>
 
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -45,79 +34,20 @@
   </head>
 
   <style>
-
-  .footer {
-  padding-left: 15vw;
-  display: block;
-  width: 100%;
-  height: 15vh;
-  background-color: #424242;
-  }
-
-  p, a, span, div {
-    font-family: 'Droid Sans', sans-serif;
-  }
-
- .link {
-    color: #ffffff;
-    text-decoration: none;
-  }
-
-  .menu-link {
-    color: #000000;
-    text-decoration: none;
-  }
-
-  body {
-    margin: 0;
-    padding: 0;
-  }
-
-  .email {
-    display: inline;
-    color: #ffffff;
-  }
-
-  .email a {
-    color: #ffffff;
-  }
-
-  .social {
-    display: inline;
-  }
-
-  .mdl-navigation__link {
-    font-size: 18px;
-  }
-
-  .mdl-mini-footer__right-section {
-      padding-top: 5px;
+    p, a, span, div {
+      font-family: 'Droid Sans', sans-serif;
     }
-
-    .layout-transparent {
-    background: url('assets/JapaneseMaple.png') center / cover;
-  }
-
-  .mdl-layout__drawer-button {
-    color: white !important;
-  }
-
-
-  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    
-
-    .mdl-navigation__link {
-    font-size: 14px;
-  }
-}
+ 
+    body {
+      margin: 0;
+      padding: 0;
+    }
   
   </style>
 
   <body>
-
     <div id="root"></div>
     <script type="text/javascript" src="/assets/javascripts/bundle.js" charset="utf-8"></script>
-
   </body>
 
 </html>
