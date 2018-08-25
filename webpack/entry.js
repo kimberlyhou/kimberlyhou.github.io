@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
 import Home from './components/Home';
+import Music from './components/Music';
 import { css } from 'glamor';
 import glamorous, { Div } from 'glamorous';
 import { Container, Row, Col } from 'glamorous-grid';
@@ -22,10 +23,6 @@ const style = {
 		':active': { color: 'black' },
 	},
 };
-
-function Music() {
-	return <Div />;
-}
 
 class App extends Component {
 	render() {
