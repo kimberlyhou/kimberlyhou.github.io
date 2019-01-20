@@ -33,13 +33,17 @@ class App extends Component {
 						<NavLink to="/" style={style.NavLink}>
 							Kimberly Hou
 						</NavLink>
-						<NavLink to="/music" style={style.NavLink}>
+						<NavLink to="/classical-piano" style={style.NavLink}>
 							Music
 						</NavLink>
 
 						<Switch>
 							<Route path="/" exact component={Home} />
-							<Route path="/music" exact component={Music} />
+							<Route
+								path="/classical-piano"
+								exact
+								component={Music}
+							/>
 						</Switch>
 					</Div>
 				</BrowserRouter>
