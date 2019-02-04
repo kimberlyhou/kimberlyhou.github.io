@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { css } from 'glamor';
 import glamorous from 'glamorous';
-import { Row, Col } from 'glamorous-grid';
+import { Container, Row, Col } from 'glamorous-grid';
 
 const Paragraph = glamorous.p({
 	fontSize: 18,
@@ -39,7 +39,12 @@ const style = {
 class ClassicalPiano extends Component {
 	render() {
 		return (
-			<React.Fragment>
+			<Container
+				css={{
+					marginTop: '5vh',
+					marginBottom: '10vh',
+				}}
+			>
 				<Row justifyContent="center">
 					<Col>
 						<Heading>Classical Piano</Heading>
@@ -130,7 +135,7 @@ class ClassicalPiano extends Component {
 						</div>
 					</Col>
 				</Row>
-			</React.Fragment>
+			</Container>
 		);
 	}
 }

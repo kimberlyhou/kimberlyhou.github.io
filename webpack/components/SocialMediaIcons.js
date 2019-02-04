@@ -47,22 +47,22 @@ class SocialMediaIcons extends Component {
 					/>
 				</a>
 				<a
+					href="https://www.soundcloud.com/kimberlyjhou/"
+					target="blank"
+					style={style.Hyperlink}
+				>
+					<Icon
+						src="assets/soundcloud-bw-32px.png"
+						style={style.Icon}
+					/>
+				</a>
+				<a
 					href="https://www.linkedin.com/in/kimberlyhou/"
 					target="blank"
 					style={style.Hyperlink}
 				>
 					<Icon
 						src="assets/linkedin-black-128px.png"
-						style={style.Icon}
-					/>
-				</a>
-				<a
-					href="https://github.com/kimberlyhou"
-					target="blank"
-					style={style.Hyperlink}
-				>
-					<Icon
-						src="assets/GitHub-Mark-120px-plus.png"
 						style={style.Icon}
 					/>
 				</a>
