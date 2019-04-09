@@ -34,8 +34,8 @@ class Hello extends Component {
 					>
 						Stripe
 					</Hyperlink>{' '}
-					and graduated from the Columbia-Juilliard exchange program,
-					where I studied neuroscience, computer science, and piano.
+					and graduated from the Columbia-Juilliard exchange program, where I
+					studied neuroscience, computer science, and piano.
 				</Paragraph>
 				<Paragraph>
 					During my time in school, I founded{' '}
@@ -48,7 +48,7 @@ class Hello extends Component {
 					</Hyperlink>{' '}
 					and helped lead{' '}
 					<Hyperlink
-						href="https://www.coreatcu.com"
+						href="https://coreatcu.com"
 						target="blank"
 						style={style.Hyperlink}
 					>
@@ -57,8 +57,8 @@ class Hello extends Component {
 					among other activities, all of which are dear to my heart.
 				</Paragraph>
 				<Paragraph>
-					Always excited to collaborate on projects, artistic and
-					otherwise. Feel free to say hello at{' '}
+					Always excited to collaborate on projects, artistic and otherwise.
+					Feel free to say hello at{' '}
 					<Hyperlink
 						href="mailto:kimberly@kimberlyhou.com"
 						target="blank"
